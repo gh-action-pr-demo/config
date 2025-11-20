@@ -1,0 +1,10 @@
+# Dependency Review Configuration
+# This file controls the severity levels for dependency scanning
+
+# Minimum severity level for dependency-review-action to fail the build
+# Options: critical, high, moderate, low
+fail_on_severity: high
+
+# Minimum severity level for policy violations to be reported
+# Options: critical, high, moderate, low
+min_severity: high
